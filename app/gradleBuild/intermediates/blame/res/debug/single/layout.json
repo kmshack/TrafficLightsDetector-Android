@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/kmshack/Desktop/caffe-android-demo-master/app/gradleBuild/intermediates/res/merged/debug/layout/camera_connection_fragment.xml",
+        "source": "/Users/kmshack/Desktop/caffe-android-demo-master/app/src/main/res/layout/camera_connection_fragment.xml"
+    },
+    {
+        "merged": "/Users/kmshack/Desktop/caffe-android-demo-master/app/gradleBuild/intermediates/res/merged/debug/layout/camera_connection_fragment_stylize.xml",
+        "source": "/Users/kmshack/Desktop/caffe-android-demo-master/app/src/main/res/layout/camera_connection_fragment_stylize.xml"
+    },
+    {
+        "merged": "/Users/kmshack/Desktop/caffe-android-demo-master/app/gradleBuild/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/kmshack/Desktop/caffe-android-demo-master/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/kmshack/Desktop/caffe-android-demo-master/app/gradleBuild/intermediates/res/merged/debug/layout/camera_connection_fragment_tracking.xml",
+        "source": "/Users/kmshack/Desktop/caffe-android-demo-master/app/src/main/res/layout/camera_connection_fragment_tracking.xml"
+    },
+    {
+        "merged": "/Users/kmshack/Desktop/caffe-android-demo-master/app/gradleBuild/intermediates/res/merged/debug/layout/activity_camera.xml",
+        "source": "/Users/kmshack/Desktop/caffe-android-demo-master/app/src/main/res/layout/activity_camera.xml"
+    }
+]
