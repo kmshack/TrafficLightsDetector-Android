@@ -23,6 +23,10 @@ android {
         }
     }
 
+    lintOptions {
+        checkReleaseBuilds false
+    }
+
 //    externalNativeBuild {
 //        cmake {
 //            path "src/main/jni/CMakeLists.txt"
