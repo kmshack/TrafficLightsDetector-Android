@@ -34,7 +34,8 @@ Identify traffic signals based on davidbrai's findings and published data. 94% r
 How to run
 -------------
 
-Download the source code and open it in the Android studio. ([APK Downlaod](https://github.com/kmshack/TrafficLightsDetector-Android/blob/master/tldetector.apk))
+Download the source code and open it in the Android studio. ([APK Download](https://github.com/kmshack/TrafficLightsDetector-Android/blob/master/tldetector.apk))
+
 Copy the modeled prototxt and caffemodel files from the [trafficlightsmodel](https://github.com/kmshack/TrafficLightsDetector-Android/tree/master/trafficlightsmodel) directory to your device for your environment.
 
     private String modelDir = sdcard + "/model";
