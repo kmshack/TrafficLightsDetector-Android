@@ -36,6 +36,8 @@ How to run
 
 Download the source code and open it in the Android studio. ([APK Download](https://github.com/kmshack/TrafficLightsDetector-Android/blob/master/tldetector.apk))
 
+[GooglePlayStore Download](https://play.google.com/store/apps/details?id=com.kmshack.tldetector)
+
 Copy the modeled prototxt and caffemodel files from the [trafficlightsmodel](https://github.com/kmshack/TrafficLightsDetector-Android/tree/master/trafficlightsmodel) directory to your device for your environment.
 
     private String modelDir = sdcard + "/model";
