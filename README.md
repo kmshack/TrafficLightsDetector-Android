@@ -49,6 +49,7 @@ Copy the modeled prototxt and caffemodel files from the [trafficlightsmodel](htt
 
 Run
 -------------
+[https://youtu.be/5o6zgHIys9w](https://youtu.be/5o6zgHIys9w)
 
 ![enter image description here](https://raw.githubusercontent.com/kmshack/TrafficLightDetector-Android/master/screen.jpg)
 
