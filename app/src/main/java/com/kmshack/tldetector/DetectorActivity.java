@@ -40,7 +40,7 @@ public class DetectorActivity extends CameraActivity implements OnImageAvailable
     private static final Logger LOGGER = new Logger();
 
     private static final int MB_INPUT_SIZE = 240;
-    private static final boolean USE_YOLO = false;
+    private static final boolean USE_YOLO = true;
 
     private static final int CROP_SIZE = MB_INPUT_SIZE;
     private static final boolean MAINTAIN_ASPECT = USE_YOLO;
@@ -172,7 +172,7 @@ public class DetectorActivity extends CameraActivity implements OnImageAvailable
         final Canvas canvas = new Canvas(croppedBitmap);
         canvas.drawBitmap(rgbFrameBitmap, frameToCropTransform, null);
 
-        String saveFile = ImageUtils.saveBitmap(croppedBitmap);
+        String saveFile = ImageUtils.saveBitmap(getApplicationContext(), croppedBitmap);
 
         onDetector(saveFile);
         trackingOverlay.postInvalidate();

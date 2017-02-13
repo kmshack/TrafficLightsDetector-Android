@@ -8,14 +8,19 @@ android {
         applicationId "com.kmshack.tldetector"
         minSdkVersion 21
         targetSdkVersion 23
-        versionCode 1
-        versionName "1.0.0"
+        versionCode 110
+        versionName "1.1.0"
 //        ndk {
 //            // Specifies the ABI configurations of your native
 //            // libraries Gradle should build and package with your APK.
 //            abiFilters 'x86', 'x86_64', 'armeabi', 'armeabi-v7a'
 //        }
     }
+
+    lintOptions {
+        abortOnError false
+    }
+
     buildTypes {
         release {
             minifyEnabled false
